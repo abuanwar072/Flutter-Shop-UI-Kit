@@ -1,22 +1,11 @@
-# Furniture App - Flutter UI
-
-## [Watch it on YouTube](https://youtu.be/bkR7naR1efA)
-
-**Packages we are using:**
-
-- flutter_svg: [link](https://pub.dev/packages/flutter_svg)
-- goole_fonts: [link](https://pub.dev/packages/google_fonts)
-
-**Fonts**
-
-- Poppins [link](https://fonts.google.com/specimen/Poppins)
-
-We design two pages one is the product page with a search bar at the top then the category list at the end list of products. And another one is the details page provides you more details about the product like price, long description, at the bottom chat, and add to cart button.
-
 ### Furniture App Final UI
+
+If you are planning to create an e-commerce app using Flutter then this Shop UI Kit would be the perfect choice for you to make a gorgeous app for both Android & iOS.
+
+This kit comes with more than 15 screens which contain the most common screens for your eCommerce app like Onboarding, Authentication, Homepage, product details page, Cart, user profile and more!
+
+### Download complete UI kit [Download](https://www.patreon.com/posts/61709201)
 
 ![Preview](/preview/0.png)
 ![Preview](/preview/1.jpg)
 ![Preview](/preview/2.jpg)
-
-<!-- ![App UI](/ui.png) -->
