@@ -1,16 +1,21 @@
-# stylish
+# Furniture App - Flutter UI
 
-A new Flutter project.
+## [Watch it on YouTube](https://youtu.be/bkR7naR1efA)
 
-## Getting Started
+**Packages we are using:**
 
-This project is a starting point for a Flutter application.
+- flutter_svg: [link](https://pub.dev/packages/flutter_svg)
+- goole_fonts: [link](https://pub.dev/packages/google_fonts)
 
-A few resources to get you started if this is your first Flutter project:
+**Fonts**
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- Poppins [link](https://fonts.google.com/specimen/Poppins)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+We design two pages one is the product page with a search bar at the top then the category list at the end list of products. And another one is the details page provides you more details about the product like price, long description, at the bottom chat, and add to cart button.
+
+### Furniture App Final UI
+
+![Preview](/preview/0.png)
+![Preview](/preview/1.jpg)
+
+<!-- ![App UI](/ui.png) -->
