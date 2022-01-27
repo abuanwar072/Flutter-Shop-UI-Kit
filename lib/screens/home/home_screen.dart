@@ -7,6 +7,10 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    var outlineInputBorder = OutlineInputBorder(
+      borderRadius: const BorderRadius.all(Radius.circular(12)),
+      borderSide: BorderSide.none,
+    );
     return Scaffold(
       appBar: AppBar(
         leading: IconButton(
@@ -30,6 +34,42 @@ class HomeScreen extends StatelessWidget {
             onPressed: () {},
           ),
         ],
+      ),
+      body: SingleChildScrollView(
+        padding: const EdgeInsets.all(defaultPadding),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              "Explore",
+              style: Theme.of(context)
+                  .textTheme
+                  .headline4!
+                  .copyWith(fontWeight: FontWeight.w500, color: Colors.black),
+            ),
+            const Text(
+              "best Outfits for you",
+              style: TextStyle(fontSize: 18),
+            ),
+            Form(
+              child: TextFormField(
+                decoration: InputDecoration(
+                  filled: true,
+                  fillColor: Colors.white,
+                  hintText: "Search items...",
+                  border: outlineInputBorder,
+                  enabledBorder: outlineInputBorder,
+                  focusedBorder: outlineInputBorder,
+                  errorBorder: outlineInputBorder,
+                  prefixIcon: Padding(
+                    padding: const EdgeInsets.all(14),
+                    child: SvgPicture.asset("assets/icons/Search.svg"),
+                  ),
+                ),
+              ),
+            )
+          ],
+        ),
       ),
     );
   }
