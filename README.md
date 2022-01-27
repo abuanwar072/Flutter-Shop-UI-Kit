@@ -17,5 +17,6 @@ We design two pages one is the product page with a search bar at the top then th
 
 ![Preview](/preview/0.png)
 ![Preview](/preview/1.jpg)
+![Preview](/preview/2.jpg)
 
 <!-- ![App UI](/ui.png) -->
