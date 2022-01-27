@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:flutter_svg/parser.dart';
 import 'package:stylish/constants.dart';
-import 'package:stylish/models/Category.dart';
 
 import 'components/categories.dart';
+import 'components/new_arrival_products.dart';
+import 'components/popular_products.dart';
 import 'components/search_form.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -56,7 +56,9 @@ class HomeScreen extends StatelessWidget {
               padding: EdgeInsets.symmetric(vertical: defaultPadding),
               child: SearchForm(),
             ),
-            const Categories()
+            const Categories(),
+            const NewArrivalProducts(),
+            const PopularProducts(),
           ],
         ),
       ),
