@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:stylish/models/Product.dart';
+import 'package:stylish/screens/details/details_screen.dart';
 
 import '../../../constants.dart';
 import 'product_card.dart';
@@ -32,7 +33,15 @@ class NewArrivalProducts extends StatelessWidget {
                   title: demo_product[index].title,
                   image: demo_product[index].image,
                   price: demo_product[index].price,
-                  press: () {},
+                  bgColor: demo_product[index].bgColor,
+                  press: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) =>
+                              DetailsScreen(product: demo_product[index]),
+                        ));
+                  },
                 ),
               ),
             ),
@@ -42,4 +51,3 @@ class NewArrivalProducts extends StatelessWidget {
     );
   }
 }
-

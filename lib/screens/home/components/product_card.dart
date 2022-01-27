@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import '../../../constants.dart';
 
-
 class ProductCard extends StatelessWidget {
   const ProductCard({
     Key? key,
@@ -10,10 +9,12 @@ class ProductCard extends StatelessWidget {
     required this.title,
     required this.price,
     required this.press,
+    required this.bgColor,
   }) : super(key: key);
   final String image, title;
   final VoidCallback press;
   final int price;
+  final Color bgColor;
 
   @override
   Widget build(BuildContext context) {
@@ -29,8 +30,9 @@ class ProductCard extends StatelessWidget {
         child: Column(
           children: [
             Container(
+              width: double.infinity,
               decoration: BoxDecoration(
-                color: const Color(0xFFFFFAF6).withOpacity(.56),
+                color: bgColor,
                 borderRadius: const BorderRadius.all(
                     Radius.circular(defaultBorderRadius)),
               ),
