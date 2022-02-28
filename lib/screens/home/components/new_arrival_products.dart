@@ -23,6 +23,8 @@ class NewArrivalProducts extends StatelessWidget {
           ),
         ),
         SingleChildScrollView(
+          physics: const BouncingScrollPhysics(
+              parent: AlwaysScrollableScrollPhysics()),
           scrollDirection: Axis.horizontal,
           child: Row(
             children: List.generate(
